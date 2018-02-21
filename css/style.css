@@ -44,12 +44,15 @@
 .devsstore-nav a:hover {
     color: #bbb;
 }
-.navbar{
-  transition: all .5s ;
+
+.navbar {
+    transition: all .5s;
 }
-.change-color-nav{
-  background: rgba(25,25,25,.5);
+
+.change-color-nav {
+    background: rgba(25, 25, 25, .5);
 }
+
 .pattern {
     position: absolute;
     top: 0;
@@ -59,14 +62,15 @@
     background-image: url("../img/pattern.png");
     z-index: 10;
 }
-@media (min-width: 768px){
 
-  .navbar-expand-md .navbar-collapse ul{
-    position: relative;
-    display: flex;
-    margin: auto;
-  }
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse ul {
+        position: relative;
+        display: flex;
+        margin: auto;
+    }
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -109,4 +113,38 @@
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    color: tomato;
+}
+
+
+/*parallax de prueba*/
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/OAYTOG0.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
