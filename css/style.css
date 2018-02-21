@@ -38,14 +38,18 @@
 
 .devsstore-nav a {
     color: #fff;
-    text-shadow: 1px 1px 1px #333;
     transition: all 0.25s ease-out;
 }
 
 .devsstore-nav a:hover {
     color: #bbb;
 }
-
+.navbar{
+  transition: all .5s ;
+}
+.change-color-nav{
+  background: rgba(25,25,25,.5);
+}
 .pattern {
     position: absolute;
     top: 0;
