@@ -38,6 +38,7 @@
 
 .devsstore-nav a {
     color: #fff;
+    text-shadow: 1px 1px 1px #333;
     transition: all 0.25s ease-out;
 }
 
