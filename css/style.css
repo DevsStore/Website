@@ -54,7 +54,14 @@
     background-image: url("../img/pattern.png");
     z-index: 10;
 }
+@media (min-width: 768px){
 
+  .navbar-expand-md .navbar-collapse ul{
+    position: relative;
+    display: flex;
+    margin: auto;
+  }
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
