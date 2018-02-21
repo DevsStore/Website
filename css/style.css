@@ -10,7 +10,8 @@
     height: 100vh;
     background-color: #777;
 }
-.carousel-item .container{
+
+.carousel-item .container {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -43,14 +44,17 @@
 .devsstore-nav a:hover {
     color: #bbb;
 }
-.pattern{
-  position:absolute;
-      top: 0; left:0;
-      width:100%;
-      height:100%;
-      background-image: url("../img/pattern.png");
-      z-index: 10;
+
+.pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/pattern.png");
+    z-index: 10;
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -71,4 +75,26 @@
     .featurette-heading {
         margin-top: 7rem;
     }
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
 }
