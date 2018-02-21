@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 .carousel {}
 
+.carousel-inner h1,
+p,
+a {
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+}
+
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
@@ -35,7 +42,29 @@
 }
 
 .devsstore-nav a:hover {
-    color: #bbb;
+    color: tomato;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
 }
 
 
