@@ -163,8 +163,14 @@ body{
 .parallax h2,p{
   padding: 1rem 2rem;
 }
-/*FOOTER */
-
+.margin-2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.eligenos ul li{
+  list-style: none;
+  padding:5px 10px;
+}
 .footer {
     background: rgba(25, 25, 25, .5);
     width: 100%;
