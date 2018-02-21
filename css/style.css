@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+.devsstore-nav{
+  background: rgba(25,25,25,0);
+  /* background: #333; */
+  box-shadow: -1px 3px 3px #aaa;
+}
+.devsstore-title{
+  font-family: 'Kaushan Script', cursive;
+}
+.devsstore-nav a{
+  color:#fff;
+  transition: all .25s ease-out;
+}
+.devsstore-nav a:hover{
+  color:#bbb;
+}
